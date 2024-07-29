@@ -1,0 +1,123 @@
+.app__registration {
+  background-color: var(--primary-bg-color);
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 5px #0000001a;
+  padding: 100px 68px;
+}
+
+.app__registration-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    color: var(--primary-font-color);
+  }
+  p {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 0 50px 0; 
+  }
+}
+
+.app__registration-list {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  
+
+  li{
+    padding-bottom: 20px;
+  }
+    
+  li:nth-child(2) span{
+    color: #345AFA;
+  }
+  li:nth-child(3) span{
+    font-weight: 500;
+  }
+  li:nth-child(4) span{
+    font-weight: 500;
+  }
+  
+}
+
+ol li::marker{
+    color: #345AFA;
+    font-weight: 600;
+  font-size: 20px;
+
+}
+
+//TAB
+//TAB
+
+@media screen and (max-width: 900px) {
+
+  .app__registration {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .app__registration-head {
+  
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 50px;
+      color: var(--primary-font-color);
+      text-align: center;
+    }
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      padding: 20px 0 50px 0; 
+      text-align: center;
+    }
+  }
+
+  .app__registration-list {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+  }  
+
+}
+
+//MOB
+//MOB
+
+@media screen and (max-width: 500px) {
+
+  .app__registration {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .app__registration-head {
+  
+    h1 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    p {
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+
+  .app__registration-list {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }  
+
+}

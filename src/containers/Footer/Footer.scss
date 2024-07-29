@@ -1,0 +1,252 @@
+.app__container-footer {
+  width: 100%;
+  position: relative;
+  background-color: var(--footer-bg-color);
+  color: white;
+  padding: 100px 0 30px;
+}
+
+.app__footer-row {
+  width: 90%;
+  margin: auto;
+  // display: flex;
+  // flex-wrap: wrap;
+  // align-items: flex-start;
+  // justify-content: space-between;
+  display: grid;
+  grid-template-columns: 3fr 0.8fr 0.8fr 0.8fr;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 30px; 
+}
+
+.app__footer-col {
+  // flex-basis: 15%;
+  padding: 15px;
+  
+
+  h3 {
+    width: fit-content;
+    margin-bottom: 37px;
+    position: relative;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  ul li {
+    list-style: none;
+    margin-bottom: 20px;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+.app__footer-col:nth-child(1) {
+  // flex-basis: 45%;
+  margin-right: 80px;
+}
+.app__footer-col:nth-child(2) {
+  margin-right: 50px;
+}
+
+.app__footer-about {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.app__footer-address {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app__footer-phone,
+.app__footer-add {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  img {
+    width: 20px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.08px;
+  }
+}
+
+.app__footer-para {
+  p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 24px;
+    color: #ffffff99;
+    margin-left: 21px;
+  }
+}
+
+
+.app__footer-logo {
+  width: 100%;
+  max-width: 212px;
+  margin-bottom: 29px;
+}
+
+.app__footer-numbers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.app__footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.app__footer-policy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+
+  p a {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+}
+
+.app__footer-link {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  li {
+    list-style: none;
+    padding: 0px 15px;
+    text-decoration: none;
+    border-right: 2px solid white;
+    margin-top: 10px;
+  }
+
+  li:nth-child(4) {
+    border: none;
+    padding: 0 0 0 15px;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+//Tab
+//Tab
+
+@media screen and (max-width: 900px) {
+  .app__footer-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0 6px;
+  }
+
+  .app__footer-col {
+    padding: 15px 30px;
+  }
+  .app__footer-col:nth-child(1) {
+    margin-right: 0;
+  }
+  .app__footer-col:nth-child(2) {
+    margin-right: 0;
+  }
+  
+  .app__footer-logo {
+    width: 40%;
+    max-width: 212px;
+    margin-bottom: 29px;
+  }
+
+  .app__footer-about {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .app__footer-para {
+    p {
+      margin-left: 0px;
+    }
+  }
+
+  .app__footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0 6px;
+    gap: 10px;
+  }
+}
+
+//Mob
+//Mob
+
+@media screen and (max-width: 500px) {
+  
+  .app__footer-logo {
+    width: 40%;
+    max-width: 212px;
+    margin-bottom: 29px;
+  }
+
+
+  .app__footer-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .app__footer-para {
+    p {
+      margin: 20px 0 0 0;
+    }
+  }
+
+  .app__footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0 6px;
+    gap: 10px;
+  }
+}

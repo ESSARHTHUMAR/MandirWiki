@@ -1,0 +1,62 @@
+.app__howToReach-head {
+    padding: 50px 0 10px 0;
+  
+    h1 {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 75px;
+      color: var(--primary-font-color);
+      text-align: center;
+        // padding: 10px 0 50px 0;
+
+    }
+  
+  }
+  
+  .app__howToReach-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 50px 0;
+  }
+
+  //TAB
+  //TAB
+  
+  @media screen and (max-width: 900px) {
+
+    .app__howToReach-head {
+      h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+      }
+    }
+
+    .app__howToReach-info {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      padding: 50px 0;
+    }
+  }
+
+  //Mob
+    //Mob
+
+    @media screen and (max-width: 500px) {
+
+      .app__howToReach-head {
+        h1 {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+  
+      .app__howToReach-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 50px 0;
+      }
+    }

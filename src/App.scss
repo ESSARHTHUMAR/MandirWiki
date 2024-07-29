@@ -1,0 +1,40 @@
+.app {
+  background-color: var(--primary-color);
+  font-family: var(--font-base);
+  color: var(--primary-font-color);
+}
+
+.app__container {
+  padding: 50px 100px;
+  max-width: 100vw;
+  position: relative;
+
+  @media screen and (max-width: 900px) {
+    padding: 25px 50px;
+    max-width: 100vw;
+    position: relative;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 20px 30px;
+    max-width: 100vw;
+    position: relative;
+  }
+}
+
+.app__container-bg {
+  padding: 50px 32px;
+  max-width: 100vw;
+  position: relative;
+
+  @media screen and (max-width: 900px) {
+    padding: 25px 16px;
+    max-width: 100vw;
+    position: relative;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 20px 10px;
+    max-width: 100vw;
+    position: relative;
+  }
+}
+

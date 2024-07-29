@@ -1,0 +1,149 @@
+.app__temp-head {
+  text-align: center;
+
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 50px;
+  line-height: 75px;
+}
+
+.app__temp-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.app__temp-info {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.app__temp-location {
+  text-align: left;
+  h2 {
+    color: var(--blue-font-color);
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 35px;
+  }
+}
+
+.app__temp-col {
+  text-align: center;
+  h2 {
+    color: var(--blue-font-color);
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+
+    span {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 26.25px;
+      color: var(--primary-font-color);
+    }
+  }
+  p {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+}
+
+//Tab
+//Tab
+
+@media screen and (max-width: 900px) {
+  .app__temp-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .app__temp-head {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
+
+//Mob
+//Mob
+
+@media screen and (max-width: 500px) {
+  
+  // .app__temp-flex::-webkit-scrollbar {
+  //   height: 0.5em;
+  // }
+  
+  // .app__temp-flex::-webkit-scrollbar-track {
+  //   background: white;
+  //   border-radius: 100vw;
+  //   margin-block: 0.5em;
+  // }
+  
+  // .app__temp-flex::-webkit-scrollbar-thumb {
+  //   background: var(--primary-font-color);
+  //   border-radius: 100vw;
+  // }
+
+  // .app__container{
+  //   width: max-content;
+    
+  // }
+
+  // .app__temp-flex {
+  //   display: grid;
+  //   grid-template-columns: 0.5fr 1fr;
+  //   gap: 50px;
+  //   width: max-content;
+  //   overflow-x: scroll;
+  // }
+
+  // .app__temp-info {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr;
+  //   gap: 50px;
+  //   width: max-content;
+  // }
+
+  // .app__temp-flex {
+  //   width: max-content;
+  //   overflow-x: scroll;
+  // }
+
+
+  .app__temp-head {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .app__temp-location{
+    width: max-content;
+    h2{
+      font-size: 16px;
+
+    }
+  }
+
+  .app__temp-col {
+    h2 {
+
+      font-size: 16px;
+
+      span {
+        font-size: 10px;
+      }
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
