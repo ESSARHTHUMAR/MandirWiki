@@ -1,0 +1,52 @@
+.faqs_outer {
+    padding: 100px 0 160px 0;
+    overflow: hidden;
+  }
+  .faqs_outer .heading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .faqs_outer .slick-slider {
+    max-width: 960px;
+    margin: auto;
+  }
+  .faqs_outer .slick-slider .slick-prev,
+  .faqs_outer .slick-slider .slick-next {
+    width: 60px;
+    height: 60px;
+    bottom: -140px;
+    top: auto;
+    left: 44%;
+  }
+  .faqs_outer .slick-slider .slick-prev::before,
+  .faqs_outer .slick-slider .slick-next::before {
+    display: none;
+  }
+  .faqs_outer .slick-slider .slick-next {
+    right: 20px !important;
+    left: 53% !important;
+  }
+  .faqs_outer .slick-slider .slick-list {
+    overflow: inherit;
+  }
+  .faqs_outer .slick-slider .slick-list .slick-track {
+    display: flex;
+    gap: 50px;
+  }
+  .faqs_outer .slick-slider .slick-list .slick-track .slide_box {
+    opacity: 0.4;
+    padding: 80px 50px 100px;
+    border-radius: 25px;
+    border: 1px solid #080E1E;
+    background: #F5F5F5;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.15);
+    margin-right: 50px;
+    transform: scale(0.9);
+    text-align: center;
+    transition: all 0.4s;
+  }
+  .faqs_outer .slick-slider .slick-list .slick-track .slick-active .slide_box {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 0.4s;
+  }

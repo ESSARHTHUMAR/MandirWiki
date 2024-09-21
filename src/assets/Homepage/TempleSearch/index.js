@@ -1,0 +1,5 @@
+export {default as watch} from "../TempleSearch/watch.svg"
+export {default as pin} from "../TempleSearch/pin.svg"
+export {default as temple} from "../TempleSearch/temple.svg"
+export {default as flight} from "../TempleSearch/flight.svg"
+export {default as train} from "../TempleSearch/train.svg"

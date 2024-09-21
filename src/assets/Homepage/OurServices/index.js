@@ -1,0 +1,6 @@
+export {default as find} from "../OurServices/find.png"
+export {default as locker} from "../OurServices/locker.png"
+export {default as plans} from "../OurServices/plans.png"
+export {default as vr} from "../OurServices/vr.png"
+export {default as wishlist} from "../OurServices/wishlist.png"
+export {default as yatri} from "../OurServices/yatri.png"

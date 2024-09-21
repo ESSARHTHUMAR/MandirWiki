@@ -1,0 +1,6 @@
+.app__heroSection{
+    background-image: url("../../../assets/Homepage/image.png");
+    background-size: cover;
+    background-repeat: repeat;
+  background-position: center;
+}
